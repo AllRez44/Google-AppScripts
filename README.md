@@ -63,5 +63,11 @@ O script é projetado para rodar em *background*, mas você pode interagir com e
    * **Intervalo:** `A cada 1 hora` (ou 2 horas)
 4. Salve. O script fará *polling* da API silenciosamente, injetando novos dados na planilha assim que o Open Finance compensar novas transações.
 
+## 📚 Referências da API Pluggy
+
+* [API Reference](https://docs.pluggy.ai/en/reference)
+* [Spec OpenAPI](https://docs.pluggy.ai/openapi/pluggy-api.json): fonte da verdade para os schemas (`Bill`, `Loan`, `Investment`, etc.).
+* [Credit Card Bills](https://docs.pluggy.ai/en/docs/products/credit-card-bills): regra de quitação de faturas usada pelo script.
+
 ## 📄 Licença
 Distribuído sob a licença MIT. Sinta-se livre para fazer um *fork*, modificar e adaptar para as suas próprias regras de negócio ou dashboards!
